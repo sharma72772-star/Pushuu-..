@@ -1,704 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Birthday Surprise ❤️</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-    ❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-    <source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-<div class="welcome">
-
-    <h1>Happy Birthday ❤️</h1>
-
-    <p>
-        A special surprise is waiting for you ✨
-    </p>
-
-    <button onclick="goNext()">
-        Start Surprise 💖
-    </button>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Birthday Letter ❤️</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-    ❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-    <source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-<div class="letter-box">
-
-    <h1>For You ❤️</h1>
-
-    <div class="letter">
-
-        <p>
-        Happy Birthday my special one ❤️
-        </p>
-
-        <p>
-        Today is a beautiful day because it celebrates
-        the amazing person you are.
-        </p>
-
-        <p>
-        May your life always be filled with happiness,
-        love, success and countless smiles ✨
-        </p>
-
-        <p>
-        This little surprise is created only for you ❤️
-        </p>
-
-    </div>
-
-    <button onclick="goGift()">
-        Next Surprise 🎁
-    </button>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gift Surprise 🎁</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-    ❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-    <source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-<div class="gift-page">
-
-<h1>A Gift For You 🎁</h1>
-
-<div class="gift-box" onclick="openGift()">
-🎁
-</div>
-
-<p id="giftText">
-Tap the gift to open ❤️
-</p>
-
-<button onclick="goCake()">
-Next Surprise 🎂
-</button>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Birthday Cake 🎂</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-<source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-<div class="cake-page">
-
-<h1>Make a Wish ✨</h1>
-
-<div class="cake">
-🎂
-</div>
-
-<p>
-Happy Birthday ❤️
-</p>
-
-<button onclick="goMemory()">
-See Memories 📸
-</button>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beautiful Memories ❤️</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-<source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-<div class="memory">
-
-<h1>Beautiful Memories ❤️</h1>
-
-<div class="photos">
-
-<img src="images/photo1.jpg" alt="Memory 1">
-
-<img src="images/photo2.jpg" alt="Memory 2">
-
-<img src="images/photo3.jpg" alt="Memory 3">
-
-</div>
-
-<button onclick="goFinal()">
-Final Surprise 💖
-</button>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final Surprise ❤️</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="loader">
-❤️
-</div>
-
-<audio id="bgMusic" autoplay loop>
-<source src="music/birthday.mp3" type="audio/mp3">
-</audio>
-
-
-<div class="final">
-
-<h1 id="typing"></h1>
-
-<div class="slideshow">
-
-<img src="images/photo1.jpg">
-
-<img src="images/photo2.jpg">
-
-<img src="images/photo3.jpg">
-
-</div>
-
-
-<p>
-Thank you for being a beautiful part of my life ❤️
-<br>
-May your every dream come true ✨
-</p>
-
-
-<h2>
-Happy Birthday 🎂❤️
-</h2>
-
-
-<button onclick="secret()">
-Secret Message 💌
-</button>
-
-
-<p id="secretText"></p>
-
-
-</div>
-
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-*{
-    box-sizing:border-box;
-}
-
 body{
-    margin:0;
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
-    font-family:Arial,sans-serif;
-    text-align:center;
-    overflow-x:hidden;
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#ff4e8a,#ff8fb1);
+overflow-x:hidden;
+color:white;
+text-align:center;
 }
 
+section{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:30px;
+}
 
 h1{
-    color:white;
-    font-size:45px;
+font-size:45px;
+margin-bottom:20px;
+animation:fade 2s;
 }
 
+h2{
+font-size:38px;
+}
 
 p{
-    color:white;
-    font-size:20px;
-    line-height:1.6;
+font-size:22px;
+max-width:700px;
+line-height:1.7;
 }
-
 
 button{
-    padding:15px 30px;
-    border:none;
-    border-radius:30px;
-    font-size:18px;
-    cursor:pointer;
-    background:white;
-    margin-top:20px;
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2d75;
+font-weight:bold;
+cursor:pointer;
+margin-top:20px;
+transition:.3s;
 }
 
-
-/* Loader */
-
-.loader{
-    position:fixed;
-    inset:0;
-    background:#ff9a9e;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:70px;
-    animation:load 2s forwards;
-    z-index:10;
+button:hover{
+transform:scale(1.08);
 }
 
-
-@keyframes load{
-    0%{
-        opacity:1;
-    }
-    100%{
-        opacity:0;
-        visibility:hidden;
-    }
+.card{
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(10px);
+padding:25px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(0,0,0,.25);
 }
-
-
-/* Welcome */
-
-.welcome{
-    animation:fadeIn 2s;
-}
-
-
-/* Letter */
-
-.letter-box{
-    text-align:center;
-    animation:fadeIn 2s;
-}
-
-
-.letter{
-    background:white;
-    padding:25px;
-    margin:20px;
-    max-width:500px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
-}
-
-
-.letter p{
-    color:#555;
-}
-
-
-/* Gift */
-
-.gift-box{
-    font-size:100px;
-    cursor:pointer;
-    animation:bounce 1.5s infinite;
-}
-
-
-@keyframes bounce{
-    50%{
-        transform:translateY(-20px);
-    }
-}
-
-
-/* Cake */
-
-.cake{
-    font-size:100px;
-}
-
-
-/* Memories */
-
-.photos img{
-    width:200px;
-    height:200px;
-    object-fit:cover;
-    border-radius:20px;
-    margin:10px;
-}
-
-
-/* Final */
-
-.final{
-    animation:fadeIn 2s;
-}
-
-
-.slideshow img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    border-radius:20px;
-    animation:photo 6s infinite;
-}
-
-
-@keyframes photo{
-    0%{
-        opacity:0;
-    }
-
-    50%{
-        opacity:1;
-    }
-
-    100%{
-        opacity:0;
-    }
-}
-
-
-/* Hearts */
 
 .heart{
-    position:fixed;
-    bottom:-20px;
-    font-size:25px;
-    animation:float 5s linear;
+position:fixed;
+font-size:22px;
+animation:float 8s linear infinite;
+opacity:.8;
 }
-
 
 @keyframes float{
-
-    from{
-        transform:translateY(0);
-        opacity:1;
-    }
-
-    to{
-        transform:translateY(-100vh);
-        opacity:0;
-    }
-
+0%{transform:translateY(100vh);}
+100%{transform:translateY(-120vh);}
 }
 
-
-/* Confetti */
-
-.confetti{
-    position:fixed;
-    top:-20px;
-    font-size:25px;
+@keyframes fade{
+from{opacity:0;transform:translateY(40px);}
+to{opacity:1;transform:translateY(0);}
 }
-
-
-/* Fade */
-
-@keyframes fadeIn{
-
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-
-}
-
-
-/* Mobile */
-
-@media(max-width:600px){
-
-h1{
-    font-size:32px;
-}
-
-
-.gift-box{
-    font-size:80px;
-}
-
-
-.photos img{
-    width:130px;
-    height:130px;
-}
-
-
-.slideshow img{
-    width:200px;
-    height:200px;
-}
-
-}
-
-function goNext(){
-    window.location.href="letter.html";
-}
-
-
-function goGift(){
-    window.location.href="gift.html";
-}
-
-
-function goCake(){
-    window.location.href="cake.html";
-}
-
-
-function goMemory(){
-    window.location.href="memories.html";
-}
-
-
-function goFinal(){
-    window.location.href="final.html";
-}
-
-
-// Gift opening
-
-function openGift(){
-
-    let text=document.getElementById("giftText");
-
-    if(text){
-        text.innerHTML=
-        "A heart full of love and wishes for you ❤️✨";
-    }
-
-}
-
-
-// Secret message
-
-function secret(){
-
-    let msg=document.getElementById("secretText");
-
-    if(msg){
-        msg.innerHTML=
-        "You are truly special ❤️ Always keep smiling ✨";
-    }
-
-}
-
-
-// Typing effect
-
-let message=
-"A Special Day For A Special Person ❤️";
-
-let i=0;
-
-function typing(){
-
-    let box=document.getElementById("typing");
-
-    if(box && i < message.length){
-
-        box.innerHTML += message.charAt(i);
-
-        i++;
-
-        setTimeout(typing,100);
-
-    }
-
-}
-
-
-typing();
-
-
-// Floating hearts
-
-function createHeart(){
-
-    let heart=document.createElement("div");
-
-    heart.className="heart";
-
-    heart.innerHTML="❤️";
-
-    heart.style.left=Math.random()*100+"%";
-
-    document.body.appendChild(heart);
-
-
-    setTimeout(()=>{
-
-        heart.remove();
-
-    },5000);
-
-}
-
-
-setInterval(createHeart,700);
-
-
-
-// Confetti
-
-function createConfetti(){
-
-    let c=document.createElement("div");
-
-    c.className="confetti";
-
-    c.innerHTML="🎉";
-
-    c.style.left=Math.random()*100+"%";
-
-    document.body.appendChild(c);
-
-
-    let y=-20;
-
-    let fall=setInterval(()=>{
-
-        y+=5;
-
-        c.style.top=y+"px";
-
-
-    },30);
-
-
-    setTimeout(()=>{
-
-        clearInterval(fall);
-
-        c.remove();
-
-    },4000);
-
-}
-
-
-setInterval(createConfetti,1000);
-
-
-
-// Music control
-
-function musicControl(){
-
-    let music=document.getElementById("bgMusic");
-
-    if(music){
-
-        if(music.paused){
-            music.play();
-        }
-        else{
-            music.pause();
-        }
-
-    }
-
-}
-  
